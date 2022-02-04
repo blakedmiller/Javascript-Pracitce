@@ -28,3 +28,20 @@
         margin: 0 auto;
         padding: 0 50px;
     }
+
+    #navbar__logo {
+        display: flex;
+        background-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+        align-self: center;
+        background-size: 100%;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        cursor: pointer;
+        text-decoration: transparent;
+        font-size: 2rem;
+    }
+
+    .navbar__item {
+        background-color: white;
+    }
